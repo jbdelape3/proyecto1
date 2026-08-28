@@ -15,14 +15,19 @@
     <!-- formulario -->
 <form method="POST">
 
+<div class="formulario">
 <label>Nombre</label>
-<input type="text" name="nombre" required>
+<input type="text" name="nombre" required placeholder="Pepito Perez">
 
 <label>Teléfono</label>
-<input type="text" name="telefono" required>
+<input type="number" name="telefono" required placeholder="3451027122">
 
 <label>Correo</label>
-<input type="email" name="correo" required>
+<input type="email" name="correo" required placeholder="pepito_perez@example.com">
+
+<label>Dirección</label>
+<input type="text" name="direccion" required placeholder="Cll 123 # 45 - 67">
+</div>
 
 <button type="submit">
     Agregar contacto
