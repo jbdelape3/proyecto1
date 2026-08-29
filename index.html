@@ -21,7 +21,7 @@
 <input type="text" name="nombre" required placeholder="Pepito Perez">
 
 <label class="Teléfono">Teléfono</label>
-<input type="number" name="telefono" min="0" max="999999999999"  required placeholder="3451027122">
+<input type="text" name="telefono" maxlength="10" pattern="[0-9]{10}" inputmode="numeric" oninput="this.value = this.value.replace(/[^0-9]/g, '')" required placeholder="3451027122">
 
 <label class="Correo">Correo</label>
 <input type="email" name="correo" required placeholder="pepito_perez@example.com">
@@ -30,9 +30,11 @@
 <input type="text" name="direccion" required placeholder="Cll 123 # 45 - 67">
 </div>
 
+<div class="boton">
 <button type="submit">
     Agregar contacto
 </button>
+</div>
 
 </form>
 </body>
