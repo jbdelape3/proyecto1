@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        rel="stylesheet" href="styles.css">
+    <title>Interfaz</title>
+</head>
+<body>
+    <h1>Gestor de Contactos</h1>
+
+    <div class="formulario">
+        <h2>Agregar contacto</h2>
+
+    <!-- formulario -->
+<form method="POST">
+
+
+<label class="Nombre">Nombre</label>
+<input type="text" name="nombre" required placeholder="Pepito Perez">
+
+<label class="Teléfono">Teléfono</label>
+<input type="text" name="telefono" maxlength="10" pattern="[0-9]{10}" inputmode="numeric" oninput="this.value = this.value.replace(/[^0-9]/g, '')" required placeholder="3451027122">
+
+<label class="Correo">Correo</label>
+<input type="email" name="correo" required placeholder="pepito_perez@example.com">
+
+<label class="Dirección">Dirección</label>
+<input type="text" name="direccion" required placeholder="Cll 123 # 45 - 67">
+</div>
+
+<div class="boton">
+<button type="submit">
+    Agregar contacto
+</button>
+</div>
+
+</form>
+</body>
+</html>
