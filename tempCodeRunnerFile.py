@@ -1,0 +1,1 @@
+print("Siguiente:", contacto.siguiente)
