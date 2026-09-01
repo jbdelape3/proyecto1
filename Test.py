@@ -23,8 +23,4 @@ contactos.agregar_contacto(
     "Calle 70 #70-40"
 )
 
-
-actual = contactos.cabeza
-while actual is not None:
-    print(actual)
-    actual = actual.siguiente
+contactos.mostrar_contactos()

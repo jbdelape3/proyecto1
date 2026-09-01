@@ -19,3 +19,8 @@ class ListaDeContactos: # (Creamos la lista enlazada para poder organizar los co
         while actual.siguiente is not None:
             actual =  actual.siguiente
         actual.siguiente = nuevo
+    def mostrar_contactos(self):
+        actual = self.cabeza
+        while actual is not None:
+            print(actual)
+            actual = actual.siguiente
