@@ -1,35 +1,16 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Samuel Buelvas Juan Bernal
 
-## Getting Started
+Conectamos personas, organizamos información y transformamos ideas en soluciones: un gestor de contactos creado por estudiantes de Ingeniería de Sistemas.
 
-First, run the development server:
+Funcionalidades: Agregar contactos
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Permitir registrar información básica como: Nombre, Apellido, Número de teléfono, Correo electrónico, Dirección Editar y eliminar contactos Marcar contactos como favoritos
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
+Despliegue en AWS
+Integrante	URL del sitio	Bucket publico	Bucket privado
+Juan Benral	http://cuc-bp-equipojs-sitio-2026.s3-website-us-east-1.amazonaws.com	cuc-bp-equipojs--sitio-2026	cuc-bp-eqjs-bernal-privado-2026
+Samuel Buelvas	http://cuc-bp-equipojs-buelvas-sitio-2026.s3-website-us-east-1.amazonaws.com	cuc-bp-eqjs-buelvas-sitio-2026	cuc-bp-eqjs-buelvas-privado-2026
+El sitio dejó de estar en Netlify y pasó a S3 para tener todo en nuestra propia cuenta de AWS, con más control y sin depender de un servicio externo. Usamos dos buckets: uno guarda y muestra los archivos del sitio, y el otro solo redirige a los visitantes que entran por la dirección alternativa hacia el principal.
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
