@@ -1,0 +1,19 @@
+{
+  "name": "api-estudiantes",
+  "version": "1.0.0",
+  "description": "API REST en Node.js y Express con arquitectura por capas para el proyecto de Buenas Prácticas de Desarrollo de Software - CUC",
+  "main": "src/servidor.js",
+  "scripts": {
+    "start": "node src/servidor.js",
+    "dev": "node --watch src/servidor.js",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "vitest": "^3.0.0"
+  }
+}

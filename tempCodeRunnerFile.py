@@ -1,1 +1,0 @@
-print("Siguiente:", contacto.siguiente)
