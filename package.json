@@ -3,6 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "test": "npm --prefix api test",
+    "test:watch": "npm --prefix api run test:watch",
+    "api:dev": "npm --prefix api run dev",
+    "api:start": "npm --prefix api start",
+    "front:dev": "npm --prefix front run dev",
+    "front:build": "npm --prefix front run build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
