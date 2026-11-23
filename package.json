@@ -1,0 +1,23 @@
+{
+  "name": "proyecto1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Proyecto Final Unidad 3 - Buenas Practicas de Desarrollo de Software CUC",
+  "scripts": {
+    "dev:api": "cd api && npm run dev",
+    "dev:front": "cd front && npm run dev",
+    "test": "cd api && npm run test",
+    "build:front": "cd front && npm run build"
+  },
+  "keywords": [
+    "cuc",
+    "buenas-practicas",
+    "react",
+    "node",
+    "express",
+    "vitest",
+    "dry"
+  ],
+  "author": "Samuel Buelvas & Juan Bernal",
+  "license": "ISC"
+}
